@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>RedStore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/index"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwDb4bYbBmI-ionN3iFjCD1EdY_Y6U-FCYL72pLSQ7HzvKugww0EjmMsErvNyAVAKdZmnqNnM8ZYaN1lQ54JqheLFnSo_h39Sdm5HY-3D8K7eesel0s4J730_R-QFJWNkT5y9PLF0avMJONLV97uYs_zdd_5QNe_dcdYARUnMVWaxl4l98PZVLmLfi2a8/s1600/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+    
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/product">Products</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="/login">Account</a></li>
+                    
+                </ul>
+            </nav>
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN3z4RCVbFBiEqeUi6SEh9jDhZz4oCYDu_dH6o1Dc4APt6yppeVOAsuU5L7C1E6ywRySNBmWkCRVQuApN4_CZjKhuXRnmMTx2pjIJgMDJoJ4Ol5ZR-FH3QRVZwDIbhf5TPOlxnvF7kgqg_vagMEUj1zoKwwRXEqOzuulMnz2YGyQUgqabcr6EWhIsqtmY/s1600/cart.png" width="30px" height="30px" id="cart-icon">
+            <!-- <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> -->
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Pay Now</button>
+        <i class="bx bx-x" id="close-cart"></i>
+    </div>
+
+</div>
+
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT6GCsEVKYeiXaTPuRIYgniaWoTX1Qp04dl_g5tjWpFLrpvefcbYB31WBkCEXIagBEyHQISEV2H5-EHOEocm2QxbxZguvytbXcoe5kKjXi8hk4LD8s2B5nqNvtonglEfryyNXqYxUzCNrjqcRA6Bt8u4fYW95VgKav7VqXee17Bby0QnQfS7InfASb8jw/s320/image1.png" style="height: 300%; width: 300%;" alt="">
+            </div>
+
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Profile Page</span>
+                    </div>
+
+                        <div class="profile-details">
+                            <div><strong>Username:</strong> <span id="username"></span></div>
+                            <div><strong>Email:</strong> <span id="email"></span></div>
+                            <button class="btn">Logout</button>
+                        </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukHfFmykdNsFrh5DEsBUB-GKFDtDWUCV7zGKFLdsBd89CjPi5-uEbWmlQKFSRLR-nIrFzP4WAodS5gGHApyBqzBOnTKY3rDAj3OcwINDjrdgTDdhyvlTu752oiFK7njzReWrPNGOdJIDnONE6BM-uOaiAEJ6pz5izTJLH3q94kBljLO90AW7Ao2dfx6A/s1600/play-store.png" alt="">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsoGhyQMbBNY66itea_7cuADY9IwgSQTEuIYcKHq3QDIB6LU61Hvle8CkWzeRMZ6dpcSrfKDfVxma0YV9aLr9kgVEa8n6W1jiZkjkPjgwG90ZhMvkLV4eCapZBr_4Od0FtNvsFaTtFtzHkNiEHjL1VNUblCIYPfdranJfEFpjGJ9lJPl6JG-JQR4LEOmE/s1600/app-store.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNOWHLiyoUKAJU5YNiKgtkT42Sh9tBVrrt1mldhnHUAnXL1uM42lV2LDeGkY5hJWKqfvYVHjNOSDT7-1g6dQAhONEOSpb_Cf3vFLQskpYVIv9LTTrIZTKCuCIW0P1MWQYuK8hEoAzxOjLK2EpRO_hpHQR7evkXvunb7VbKbuNtzxY8sciw1GC6bcE27SU/s1600/logo-white.png" alt="">
+                <p>Our Purpose Is To Sustainably make the Pleasure and Benefits of Sports Accessible to the Many</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Adesh More</p>
+    </div>
+</div>
+
+<!----------Js for toggle menu----------->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

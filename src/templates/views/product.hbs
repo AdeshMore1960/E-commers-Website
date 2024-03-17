@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="/index"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwDb4bYbBmI-ionN3iFjCD1EdY_Y6U-FCYL72pLSQ7HzvKugww0EjmMsErvNyAVAKdZmnqNnM8ZYaN1lQ54JqheLFnSo_h39Sdm5HY-3D8K7eesel0s4J730_R-QFJWNkT5y9PLF0avMJONLV97uYs_zdd_5QNe_dcdYARUnMVWaxl4l98PZVLmLfi2a8/s1600/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+    
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/product">Products</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="/login.">Account</a></li>
+                </ul>
+            </nav>
+
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN3z4RCVbFBiEqeUi6SEh9jDhZz4oCYDu_dH6o1Dc4APt6yppeVOAsuU5L7C1E6ywRySNBmWkCRVQuApN4_CZjKhuXRnmMTx2pjIJgMDJoJ4Ol5ZR-FH3QRVZwDIbhf5TPOlxnvF7kgqg_vagMEUj1zoKwwRXEqOzuulMnz2YGyQUgqabcr6EWhIsqtmY/s1600/cart.png" width="30px" height="30px" id="cart-icon">
+            <!-- <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> -->
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <div class="cart-box"></div>
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button type="button" class="btn-buy">Pay Now</button>
+        <i class="bx bx-x" id="close-cart"></i>
+    </div>
+
+
+<div class="small-container">
+    
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>Short by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivMjJ9s9oip2NoTppgQwOXULNCIHthKHGLErfQEUA_bJcmFZ8qPBekIdhxAXvyloJyLYMTS5juTlNXZwFf2ZjU8I8PGuvWgw1ZhX0Y1Il5NlCYduZbX6mBnOZQWDRM_MINJDWrabJiPTFNC_MMT3W9nVDtC2pbrahbi_O8r-1N7ZkwogCHa3mdu3QWm_w/s320/product-1.jpg">
+            <h4 class="porduct-title">Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$50.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTEzmKRiSmNVFc-kb0TWZae0rTYrvjFQ0hXee2AYAek-bKLjJxTKkH-WQzUiOO3-_4Hz22vNOil9SKx1rRj-3ArdUD2OtVzhyjtiYUHMrUA7ZRK6B13ISFsU3Bgmzrlw-l4agVt8w4EQr2UVO47UL8U0_mmjIM8_29cfQGlfYEgjhs6lMiwrM9GOAGp_A/s320/product-2.jpg">
+            <h4 class="porduct-title">HRX Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$200.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixG8unZ1sFl_kEbqeifasWgdtQ5epBlINbBHwDRksA18svsOfLFyqto7alCPUDSEhCiSHiKoQhT47qWti3QVedX8rq9I1wwiNNXrbyMI8-yQW4qKfD_Eq5IFtSqHU9pxmROI93xAozgvy8kPGTVabvg2-bUWSE-uOrc6ihHqjQjbh74ooqNdaQPlDFCR0/s320/product-3.jpg">
+            <h4 class="porduct-title">Black Cargo Trousers</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p class="price">$75.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-Th6cArMbeM-noj6afp1pLMCVgdGgxZPr1NZHsYNOlr6tJ2O9l7jmCfWKJLAZQ06rhFgcWILLRkz56lGu25U6y6vHapOO19vfc5qDvvhpv139y_kupqO4ZPyhGs8N2X9-h81pdK66Wdzvlj86Qem_xOND9NRuh_H55D9dze9EuLi_T_lUYVHCWWpM5aE/s320/product-4.jpg">
+            <h4 class="porduct-title">Men's Jersey Polo</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$70.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNrTRqLYJe-6zaaZPnv4W8khkIELY-RS1E_fGRFiqJv1-pL9icMKiNGQSeNuly2nQzvRUtFCjuJ9B4v3X5pW7_sb3l-TVQy8BVOd9gdiQUcJkoMPgaykvn9vctLgrj2so_TUmxCvi4AbCi8B3VOeq-1PLHPiz2c-T4Oim-0_7ROxqiqzCbmgWgd4hxh2k/s320/product-5.jpg">
+            <h4 class="porduct-title">Sneakers For Men (Grey)</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$250.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMXJZNRiJ1V-YsUyMEiY-f7YZs1UocdcByypSgNQAhn-NRzZyCUEv98IwbJT1nxg2NFuoUsWcyrRmogCF3JXgTCqortoMUSTrOc5AiPbanh-G7_fmN9D1msYu-9wl7PER94VcYs_NQKMuv03du9UuMBIv3VdazhfAAQAImcG7exC31ho4CRQxw-5GCAUk/s320/product-6.jpg">
+            <h4 class="porduct-title">Mens Black Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$75.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUxZZAOw6_ev-i6Mkh6LyX-J5bE6C4yrIDUrKtPnYRs3es2S6kzbH8g9221bJed_ZO6dB__yNq24xDudTVSVMEgxHIK6y-WOk1-yaHmVvbqgxB2TuAqtNuQ6uD2juJbnm5J8gOHFgX2_qp7huo19Gye4e_gI_85b9fNYSyPD9ys7CQupN6xZ86MdJipFI/s320/product-7.jpg">
+            <h4 class="porduct-title">HRX Socks (3 pack scoks)</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p class="price">$50.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0VWtH2v2jH1SWa4VDWYxSPz71qVK4W-e1G6LzkCTCvg5UWQFPWyLs17haceNuWpFNkPnNqX_tyxm9KVytX2FHLllotVNxYthR9XCX5wmjDfBN6PFJ1UQwaD2-QuBSX_MquF9GtOc8RWU7FDse5QHYWoLLUrYk1oJiuH7kQnMOm2IrSp7NTULCxDgf_6E/s320/product-8.jpg">
+            <h4 class="porduct-title">Fossil Mens Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price">$300.00</p>
+            <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div  class="col-4">
+                <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivLUEYLa42aA5vF3kQtsqMFChS75L8OOV3ns3Q_P2GZQmTk-A1TCKvDnno6JnKmTQWrXmvvKfq4YNgZgq3MR5o1QxlofOwGSqcFCJt53iYVjat2WljvBoOYTZSbBEdzJAwqeWtd3bX9h6b1jHWnqnyJDMVAro4WHNgghXXVOUHEpbcu0PSj0dYaQz9fG8/s1440/product-9.jpg">
+                <h4 class="porduct-title">RoadSter Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$200.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZADx7FKoxsb8R63ddXErg0oZF0q6zHBYS5FF3982Tv1bAkyZ7fcf3TJ7qk2VO9FFzxunKVZywjj9I0xAkF0IKiR7_0qKJGD64gHF8wMzj9auh3Qa_wN6GU9Hs9wtWLpsLWK4977NlrjZNob6QcXrQi7yhtyAbYhm_4xgtoPQ28ub8Akb5MVI-nU5Nqkc/s320/product-10.jpg">
+                <h4 class="porduct-title">HRX Black Red Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$120.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuqqbgxU79dKps_fNpAtbqsNHwTf7GQVCIW2vP3SexOWbo-6-wxOjLPBxPtVRF52fbdmO9HislNLgqiiN-OBfASB84N3sNbdm4bpzIWwFkmaHaQ0jxkZUFh_5B61hAv-qZ5bML2byQetOyYOjXFRDN8aocZKLWTsdQTUfqq_L9si47_bY0A_aEIUQcuH8/s320/product-11.jpg">
+                <h4 class="porduct-title">Puma Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">$160.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_fqr2IsJMZF_6AImIIbQEFJWIcNuFiT4D6lIHq0WWM8Qe4rgewDdfokGIAVyf5ckxdTUdRPlF1FEB4FVOYyi6SOS9SZisBQMLbJDpqBsh7ZttgtJ-RMyK5PNUkG9Tja3GvPuaqLzx0G8vWVifhg4hI8yhU6vtn5VMkbJdCHb4n0iCvLIJSzyNvwCCO4/s320/product-12.jpg">
+                <h4 class="porduct-title">Nike Black Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$140.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc2cDhXqE7de9IsQXr4ig0atmsYfmyoLhu1V8tkm7XrGO6pvZY6CnqNgl7ognLPKnUM7dPZd7k-XlQb-bOW3N70aflZfhnhmIrd9Lam0wLZ8YnArzPmDaUURSdfFIg9vihfQNxW__HgAmkkv0IaGTwVyqh2R0ZTEKWU1vz_4eBZ8Wy5Y1xFd9MFRT48WM/s320/product1.jpeg">
+                <h4 class="porduct-title">Adicolor seasonal</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglbAN2k5InmJqkbJqBcvwga7uZQDD_ZKKsD_iDq_fdTuqiEMMWXTZpLOvB3gSCzYkR5assqI4WJvMDGbGwUURalUvSPZcPd5_qIY5QfFpsD4Hran290c2bVyAWihhwMIXxtCmJaUczwfcHRjwP0X8ASG-FFv_Vd3__pHfs2RJ7PYBdMztNK6XVpHP3pGM/s320/product2.jpeg">
+                <h4 class="porduct-title">Saturday Backpack</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$70.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs56JGCtta36fPCVl9OvxnetD5EbykSuYk3gFeTlhRkEAbmawATImL-9no88nrvFOzlzXvY_50oMVVeRr4fjBbod1HSakxm8DKaQlgH60o71iw0EmS2ly1317832JSOcYfKasEJOOoFSRtoc5711-2zXoAOJvV3ZZ_9cJZm3dyzd9uOf7iDVR8JFOULA0/s320/product3.jpeg">
+                <h4 class="porduct-title">Ultimate Hat</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price">$25.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+
+        <div class="col-4">
+            <img class="product img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijHRGufLOAC0njlUn8LD7KmKd-T7kQqDuDBo55_Bu1v1dkECWa53t-fQgEA345CUtg60M2fEXlICm3yerErW5e7ynzpAxvjOh-HgOVaJOrcIHMwdFk8dxWjjx09RyzqcTOLYbGziN9tfzss1psBfSeEzYEpRhLy21OrueNrFpMJor_DfI3EA2vhf2Xff4/s320/product7.jpeg">
+                <h4 class="porduct-title">Metal Bottle 1L</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$80.00</p>
+                <i class="bx bx-shopping-bag add-cart"></i>
+                
+        </div>
+    </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukHfFmykdNsFrh5DEsBUB-GKFDtDWUCV7zGKFLdsBd89CjPi5-uEbWmlQKFSRLR-nIrFzP4WAodS5gGHApyBqzBOnTKY3rDAj3OcwINDjrdgTDdhyvlTu752oiFK7njzReWrPNGOdJIDnONE6BM-uOaiAEJ6pz5izTJLH3q94kBljLO90AW7Ao2dfx6A/s1600/play-store.png" alt="">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsoGhyQMbBNY66itea_7cuADY9IwgSQTEuIYcKHq3QDIB6LU61Hvle8CkWzeRMZ6dpcSrfKDfVxma0YV9aLr9kgVEa8n6W1jiZkjkPjgwG90ZhMvkLV4eCapZBr_4Od0FtNvsFaTtFtzHkNiEHjL1VNUblCIYPfdranJfEFpjGJ9lJPl6JG-JQR4LEOmE/s1600/app-store.png" alt="">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNOWHLiyoUKAJU5YNiKgtkT42Sh9tBVrrt1mldhnHUAnXL1uM42lV2LDeGkY5hJWKqfvYVHjNOSDT7-1g6dQAhONEOSpb_Cf3vFLQskpYVIv9LTTrIZTKCuCIW0P1MWQYuK8hEoAzxOjLK2EpRO_hpHQR7evkXvunb7VbKbuNtzxY8sciw1GC6bcE27SU/s1600/logo-white.png" alt="">
+                <p>Our Purpose Is To Sustainably make the Pleasure and Benefits of Sports Accessible to the Many</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Adesh More</p>
+    </div>
+</div>
+
+<!----------Js for toggle menu----------->
+<script src="js/main.js"></script>
+
+</body>
+</html>
